@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutWindow</class>
+ <widget class="QDialog" name="AboutWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>582</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="minimumSize">
+       <size>
+        <width>580</width>
+        <height>300</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>580</width>
+        <height>300</height>
+       </size>
+      </property>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>Tab 1</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>Tab 2</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pushButtonAccept">
+        <property name="minimumSize">
+         <size>
+          <width>220</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>220</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Accepteren</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="pushButtonReject">
+        <property name="minimumSize">
+         <size>
+          <width>220</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>220</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Niet accepteren</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="message">
+      <property name="minimumSize">
+       <size>
+        <width>580</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>580</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Het spelletje dat je gaat spelen is gebaseerd op vrije software. Lees aandachtig de informatie in onderstaande tabs. Alvorens te spelen dien je te accepteren op het eindgebruik van het spelletje. Ga je niet akkoord dan sluit het spelletje af. Het spelletje komt uit een Engelstalige omgeving, vandaard dat deze teksten jammer genoeg niet in het Nederlands zijn opgesteld.</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

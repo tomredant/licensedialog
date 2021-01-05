@@ -4,10 +4,13 @@
 #include <QString>
 class LicenseDialog;
 extern LicenseDialog* LICENSEDIALOG;
+extern bool licenseAccepted;
+bool hasLicenseAccepted();
 class QApplication;
 extern QApplication* APPLICATION;
 void initializeLicenseDialog();
 void showLicenseDialog(std::vector<std::string> libraries);
 void refreshLicenseDialog();
-
+void showLicenseDialog();
+bool waitLicenseDialogAccepted();
 #endif // SHOWLICENSE_H

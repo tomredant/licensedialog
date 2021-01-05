@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="gpl-3.0.txt">gpl-3.0.txt</file>
+		<file alias="lgpl-3.0.txt">lgpl-3.0.txt</file>
+		<file alias="mit.txt">mit.txt</file>
+    </qresource>
+</RCC>
