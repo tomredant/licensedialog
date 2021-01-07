@@ -14,7 +14,7 @@ class LicenseDialog : public QDialog
 public:
     explicit LicenseDialog(QWidget *parent = nullptr);
     ~LicenseDialog();
-    void addTab(QString name, QString header, QString licenseText = "");
+    void addTab(QString name, QString header, QString licenseText = "", int tabNum = 0);
     bool isAccepted();
 public slots:
     void acceptAndClose();

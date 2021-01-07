@@ -23,14 +23,17 @@ void populateDialog(std::vector<std::string> libraries) {
                licenseTextFile.open(QIODevice::ReadOnly);
                licenseText = QString::fromStdString(licenseTextFile.readAll().toStdString());
                licenseTextFile.close();
+            } else {
+                licenseText = list.at(2);
             }
         }
-        LICENSEDIALOG->addTab(list.at(0), list.at(1), licenseText);
+        LICENSEDIALOG->addTab(list.at(0), list.at(1), licenseText, i);
     }
 }
 void showLicenseDialog(std::vector<std::string> libraries) {
     if(LICENSEDIALOG == NULL) {
         LICENSEDIALOG = (new LicenseDialog());
+        libraries.push_back("showlicense-1.0#The showlicense-1.0 library is obtained from https://github.com/tomredant/showlicense.#gpl-3.0");
         populateDialog(libraries);
     }
     LICENSEDIALOG->show();

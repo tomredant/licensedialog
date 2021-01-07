@@ -118,7 +118,7 @@
        </size>
       </property>
       <property name="text">
-       <string>Het spelletje dat je gaat spelen is gebaseerd op vrije software. Lees aandachtig de informatie in onderstaande tabs. Alvorens te spelen dien je te accepteren op het eindgebruik van het spelletje. Ga je niet akkoord dan sluit het spelletje af. Het spelletje komt uit een Engelstalige omgeving, vandaard dat deze teksten jammer genoeg niet in het Nederlands zijn opgesteld.</string>
+       <string>Het spelletje dat je speelt is gebaseerd op vrije software. Lees aandachtig de informatie in onderstaande tabs. Alvorens te spelen dien je te accepteren op het eindgebruik van het spelletje. Ga je niet akkoord dan sluit het spelletje af. Het spelletje komt uit een Engelstalige omgeving, vandaar dat de meeste van deze teksten jammer genoeg niet in het Nederlands zijn opgesteld.</string>
       </property>
       <property name="wordWrap">
        <bool>true</bool>

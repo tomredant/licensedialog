@@ -25,11 +25,17 @@ void LicenseDialog::acceptAndClose() {
 void LicenseDialog::rejectAndClose() {
     m_accepted = false;
     hide();
+    exit(0);
 }
 
-void LicenseDialog::addTab(QString name, QString header, QString licenseText) {
+void LicenseDialog::addTab(QString name, QString header, QString licenseText, int tabNum) {
     QPlainTextEdit* edit = new QPlainTextEdit();
-    edit->setPlainText(header + "\n\n\n" + licenseText);
+    if(header.compare("") != 0)
+        header += "\n\n";
+    if(tabNum==0)
+        edit->setPlainText("This software, " + name + ", comes with the following license. " + header + "\n\n" + licenseText);
+    else
+        edit->setPlainText("This software is based on/built upon " + name + ". The relevant copyright notices and according license text linked to " + name + " are as follows." + header + "\n\n" + licenseText);
     edit->setReadOnly(true);
     m_ui->tabWidget->addTab(edit, QIcon(), name);
 }
