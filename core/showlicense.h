@@ -4,7 +4,6 @@
 #include <QString>
 class LicenseDialog;
 extern LicenseDialog* LICENSEDIALOG;
-extern bool licenseAccepted;
 bool hasLicenseAccepted();
 class QApplication;
 extern QApplication* APPLICATION;

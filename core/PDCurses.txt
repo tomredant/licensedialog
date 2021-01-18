@@ -1,0 +1,23 @@
+PDCurses Portable Core and for Windows console
+======================
+Welcome to PDCurses!
+====================
+
+The files in this directory are released to the public domain.
+PDCurses is an implementation of X/Open curses for multiple platforms. Many of the files included in PDCurses are in the public domain. 
+The latest version and more details on the licensing information can be found at:
+
+   https://pdcurses.org/
+   
+
+Acknowledgements
+----------------
+The panel library was originally provided by
+Warren Tucker <wht@n4hgf.mt-park.ga.us>
+
+Windows console port was originally provided by Chris Szurgot
+<szurgot@itribe.net>
+
+Maintainer
+----------
+William McBrine <wmcbrine@gmail.com>

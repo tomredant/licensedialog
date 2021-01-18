@@ -15,6 +15,9 @@ LicenseDialog::LicenseDialog(QWidget *parent) :
     connect(m_ui->pushButtonAccept,SIGNAL(clicked(bool)),this,SLOT(acceptAndClose()));
     connect(m_ui->pushButtonReject,SIGNAL(clicked(bool)),this,SLOT(rejectAndClose()));
     setWindowTitle(("Gebruiksvoorwaarden"));
+    QPixmap map(":/kleinkleinklikkertje_icon_100.png");
+    map = map.scaled(100,100);
+    m_ui->lblLogo->setPixmap(map);
 }
 
 void LicenseDialog::acceptAndClose() {
@@ -35,7 +38,7 @@ void LicenseDialog::addTab(QString name, QString header, QString licenseText, in
     if(tabNum==0)
         edit->setPlainText("This software, " + name + ", comes with the following license. " + header + "\n\n" + licenseText);
     else
-        edit->setPlainText("This software is based on/built upon " + name + ". The relevant copyright notices and according license text linked to " + name + " are as follows." + header + "\n\n" + licenseText);
+        edit->setPlainText("This software is based on/built upon " + name + ". The relevant copyright notices and according license text linked to " + name + " are as follows. " + header + "\n\n" + licenseText);
     edit->setReadOnly(true);
     m_ui->tabWidget->addTab(edit, QIcon(), name);
 }

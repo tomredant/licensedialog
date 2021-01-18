@@ -6,19 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
+    <width>770</width>
     <height>500</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>600</width>
+    <width>770</width>
     <height>500</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>600</width>
+    <width>770</width>
     <height>500</height>
    </size>
   </property>
@@ -30,16 +30,16 @@
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>582</width>
-     <height>481</height>
+     <width>752</width>
+     <height>454</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout_2">
-    <item row="1" column="0">
+    <item row="4" column="0">
      <widget class="QTabWidget" name="tabWidget">
       <property name="minimumSize">
        <size>
-        <width>580</width>
+        <width>750</width>
         <height>300</height>
        </size>
       </property>
@@ -61,7 +61,7 @@
       </widget>
      </widget>
     </item>
-    <item row="2" column="0">
+    <item row="5" column="0">
      <layout class="QGridLayout" name="gridLayout">
       <item row="0" column="0">
        <widget class="QPushButton" name="pushButtonAccept">
@@ -103,27 +103,50 @@
       </item>
      </layout>
     </item>
-    <item row="0" column="0">
-     <widget class="QLabel" name="message">
-      <property name="minimumSize">
-       <size>
-        <width>580</width>
-        <height>100</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>580</width>
-        <height>100</height>
-       </size>
-      </property>
-      <property name="text">
-       <string>Het spelletje dat je speelt is gebaseerd op vrije software. Lees aandachtig de informatie in onderstaande tabs. Alvorens te spelen dien je te accepteren op het eindgebruik van het spelletje. Ga je niet akkoord dan sluit het spelletje af. Het spelletje komt uit een Engelstalige omgeving, vandaar dat de meeste van deze teksten jammer genoeg niet in het Nederlands zijn opgesteld.</string>
-      </property>
-      <property name="wordWrap">
-       <bool>true</bool>
-      </property>
-     </widget>
+    <item row="2" column="0">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QLabel" name="message">
+        <property name="minimumSize">
+         <size>
+          <width>640</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>640</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Het spelletje dat je speelt is gebaseerd op vrije software. Lees aandachtig de informatie in onderstaande tabs. Alvorens te spelen dien je te accepteren op het eindgebruik van het spelletje. Ga je niet akkoord dan sluit het spelletje af. Het spelletje komt uit een Engelstalige omgeving, vandaar dat de meeste van deze teksten jammer genoeg niet in het Nederlands zijn opgesteld.</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="lblLogo">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>LOGO</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>

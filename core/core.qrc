@@ -2,8 +2,12 @@
     <qresource prefix="/">
         <file alias="gpl-3.0.txt">gpl-3.0.txt</file>
 		<file alias="lgpl-3.0.txt">lgpl-3.0.txt</file>
+		<file alias="lgpl-2.0.txt">lgpl-2.0.txt</file>
 		<file alias="mit.txt">mit.txt</file>
 		<file alias="MinGW-w64.txt">MinGW-w64.txt</file>
 		<file alias="gpl-3.0_runtime_exception.txt">gpl-3.0_runtime_exception.txt</file>
+		<file alias="PDCurses.txt">PDCurses.txt</file>
+		<file alias="kleinkleinklikkertje_icon_100.png">kleinkleinklikkertje_icon_100.png</file>
     </qresource>
+
 </RCC>

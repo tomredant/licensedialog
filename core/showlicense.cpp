@@ -6,7 +6,6 @@
 #include <QDebug>
 LicenseDialog* LICENSEDIALOG = NULL;
 QApplication* APPLICATION = NULL;
-bool licenseAccepted = false;
 
 
 
@@ -63,5 +62,5 @@ void initializeLicenseDialog() {
 }
 
 bool hasLicenseAccepted() {
-    return licenseAccepted;
+    return LICENSEDIALOG->isAccepted();
 }
